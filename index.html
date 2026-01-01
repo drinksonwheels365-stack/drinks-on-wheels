@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Drinks on Wheels Ltd | Leeds</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f5efe8;
+  color:#333;
+}
+header{
+  background:#5a3214;
+  color:#fff;
+  padding:25px;
+  text-align:center;
+}
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+.category{
+  margin-bottom:40px;
+}
+.category h2{
+  border-bottom:3px solid #5a3214;
+  padding-bottom:8px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+.product{
+  background:#fff;
+  border-radius:8px;
+  padding:15px;
+  text-align:center;
+}
+.product img{
+  width:100%;
+  height:180px;
+  object-fit:contain;
+}
+button{
+  background:#5a3214;
+  color:#fff;
+  border:none;
+  padding:10px 16px;
+  border-radius:5px;
+  cursor:pointer;
+}
+.footer{
+  text-align:center;
+  font-size:13px;
+  color:#555;
+  margin-top:40px;
+}
+.notice{
+  background:#fff3cd;
+  padding:12px;
+  border-radius:6px;
+  margin-bottom:20px;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🍺 Drinks on Wheels Ltd</h1>
+<p>Licensed Alcohol Retailer | Leeds</p>
+</header>
+
+<div class="container">
+
+<div class="notice">
+<strong>18+ ONLY.</strong> Alcohol is sold in accordance with UK law.  
+Orders are fulfilled via approved third-party delivery platforms.  
+Valid photo ID is required on delivery.
+</div>
+
+<!-- VODKA -->
+<div class="category">
+<h2>Vodka</h2>
+<div class="grid">
+
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Glen%27s_Vodka_bottle.jpg">
+<h3>Glen’s Vodka 70cl</h3>
+<button onclick="order()">Order on Just Eat</button>
+</div>
+
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Grey_Goose_Bottle.png">
+<h3>Grey Goose Vodka 70cl</h3>
+<button onclick="order()">Order on Just Eat</button>
+</div>
+
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Absolut_vodka_bottle.png">
+<h3>Absolut Vodka 70cl</h3>
+<button onclick="order()">Order on Just Eat</button>
+</div>
+
+</div>
+</div>
+
+<!-- WHISKY -->
+<div class="category">
+<h2>Whisky</h2>
+<div class="grid">
+
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Jack_Daniel%27s_No._7_Whiskey.jpg">
+<h3>Jack Daniel’s No.7</h3>
+<button onclick="order()">Order on Just Eat</button>
+</div>
+
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jameson_Irish_Whiskey.jpg">
+<h3>Jameson Irish Whiskey</h3>
+<button onclick="order()">Order on Just Eat</button>
+</div>
+
+</div>
+</div>
+
+<!-- BEERS -->
+<div class="category">
+<h2>Beers</h2>
+<div class="grid">
+
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Stella_Artois_beer.jpg">
+<h3>Stella Artois (Pack)</h3>
+<button onclick="order()">Order on Just Eat</button>
+</div>
+
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Heineken_beer_bottle.png">
+<h3>Heineken Beer</h3>
+<button onclick="order()">Order on Just Eat</button>
+</div>
+
+</div>
+</div>
+
+<div class="footer">
+© Drinks on Wheels Ltd – Leeds  
+<br>Alcohol sales subject to licensing regulations
+</div>
+
+</div>
+
+<script>
+function order(){
+  window.location.href = "https://www.just-eat.co.uk/restaurants-drinks-on-wheels-ltd-roundhay-ls8/menu#category_de9dbe88-4015-4fcb-be22-a913b048de1f/";
+}
+</script>
+
+</body>
+</html>
